@@ -1,0 +1,8 @@
+package com.test.c2;
+
+import javax.ejb.Local;
+
+@Local
+public interface C1BeanPort {
+	void doSomething();
+}
